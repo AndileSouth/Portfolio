@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5218579d.css",
+    "main.js": "/Portfolio/static/js/main.8c1f2221.js",
+    "static/media/Opera Snapshot_2023-08-23_102016_andilesouth.github.io.png": "/Portfolio/static/media/Opera Snapshot_2023-08-23_102016_andilesouth.github.io.5846219506f47fb502b5.png",
+    "static/media/cupcake-2724786_1280.png": "/Portfolio/static/media/cupcake-2724786_1280.0b90d80942efbaf7a878.png",
+    "static/media/Opera Snapshot_2023-08-23_101723_andilesouth.github.io.png": "/Portfolio/static/media/Opera Snapshot_2023-08-23_101723_andilesouth.github.io.848832de693f3d45c851.png",
+    "static/media/Opera Snapshot_2023-08-23_101452_andilesouth.github.io.png": "/Portfolio/static/media/Opera Snapshot_2023-08-23_101452_andilesouth.github.io.3914d7954e1698cbe144.png",
+    "static/media/Opera Snapshot_2023-08-23_101355_andilesouth.github.io.png": "/Portfolio/static/media/Opera Snapshot_2023-08-23_101355_andilesouth.github.io.9c306dc6de5341ad34fe.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5218579d.css.map": "/Portfolio/static/css/main.5218579d.css.map",
+    "main.8c1f2221.js.map": "/Portfolio/static/js/main.8c1f2221.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5218579d.css",
+    "static/js/main.8c1f2221.js"
+  ]
+}
