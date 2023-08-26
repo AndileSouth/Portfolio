@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #424242;
+    --shape-color: #292929;
+    --primary-text-color: white;
+    color : white;
+} 
+
 .navBar {
     height: 60px;
     
@@ -92,7 +99,71 @@ Link,a {
     transition: all 0.3s ease;
   }
   
-  /* This is the styling for the burger menu button animation */
+  /* drop down */
+  .drop-down-menu {
+    
+    display: none;
+    flex-direction: row;
+    
+   justify-content: center;
+    width: 100%;
+    height: 100vh;
+    transition: transform 0.5s ease, opacity 0.3s ease;
+    position: relative;
+  }
+
+  .drop-down-menu-left {
+    width: 50%;
+    position: relative;
+    background-color: var(--shape-color);
+  }
+
+  .drop-down-menu-right {
+    width: 50%;
+    opacity: 0;
+  }
+  .drop-down-content {
+    padding: 10px 40px;
+    margin: 5px;
+    margin-right: 50px;
+    
+    border-radius: 10px;
+  }
+
+  .drop-down-content:hover {
+    cursor: pointer;
+    background-color: #3b3939;
+  }
+
+  .cross {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1; /* Ensure cross appears above other content */
+    
+}
+
+.cross span {
+    width: 100%;
+    height: 2px;
+    background-color: white; /* Adjust color as needed */
+}
+  
+.cross span:first-child {
+    transform: rotate(45deg); /* Rotate first span */
+    
+}
+.cross span:last-child {
+    /* Apply both translation and rotation */
+    transform: translateY(-28px) rotate(-45deg);
+}
+
 
 @media screen and (max-width:576px){
     .menu-btn {

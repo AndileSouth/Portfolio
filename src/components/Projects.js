@@ -9,7 +9,7 @@ const PROJECTS = () => {
                 
                 <div>
 
-                    <a href="https://andilesouth.github.io/Dad-Joke-Generator/">
+                    <a href="https://andilesouth.github.io/Dad-Joke-Generator/" target="_blank" rel="noopener noreferrer">
 
                         <div className="img-container">
                         <img src={IMAGES.DadjokeApp} alt="" />
@@ -22,7 +22,7 @@ const PROJECTS = () => {
                     </a>
                     
 
-                    <a href="https://andilesouth.github.io/Activity-Suggestion-App/">
+                    <a href="https://andilesouth.github.io/Activity-Suggestion-App/" target="_blank" rel="noopener noreferrer">
 
                       <div className="img-container">
                         <img src={IMAGES.ActivityApp} alt="" />
@@ -46,7 +46,7 @@ const PROJECTS = () => {
                 
                 <div>
 
-                    <a href="https://andilesouth.github.io/Sneaker-City/">
+                    <a href="https://andilesouth.github.io/Sneaker-City/" target="_blank" rel="noopener noreferrer">
 
                         <div className="img-container">
                         <img src={IMAGES.Business1} alt="" />
@@ -58,7 +58,7 @@ const PROJECTS = () => {
                     </a>
                     
 
-                    <a href="https://andilesouth.github.io/Furniture-website-project/">
+                    <a href="https://andilesouth.github.io/Furniture-website-project/" target="_blank" rel="noopener noreferrer">
 
                       <div className="img-container">
 
