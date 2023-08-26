@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+h1,h2 {
+    margin: 20px 0;
+}
+
+.projects h1 {
+    margin-left: 10vw;
+}
+
+.projects div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+
+.projects div div .img-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: gray;
+}
+
+.img-container .title-languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display:grid;
+    place-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    width: 150%;
+    height: 150%;
+}
+
+.img-container img:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.projects .img-container:hover {
+    cursor: pointer;
+    
+    
+}
+
+.title-languages {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    z-index: 5;
+}
+.img-container:hover .title-languages {
+    opacity: 1;
+    
+}
+
+
+
+@keyframes slideAnimation {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .img-container{
+    animation: slideAnimation 10s infinite;
+    /* Other styles for your Home component */
+  }
+
+
+  @media screen and (max-width:576px) {
+    .projects div div {
+        flex-direction: column;
+    }
+  }

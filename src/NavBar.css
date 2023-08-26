@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    height: 60px;
+    
+    border-bottom: solid #F9F9F9 1px;
+}
+
+div {
+    color: white;
+}
+
+.nav-boxes a:hover {
+    color: #ce1414;
+}
+.navBar-content {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+    align-items: center;
+}
+
+.Profile-pic {
+    overflow: hidden;
+    object-fit: contain;
+}
+.Profile-pic img {
+    height: 100%;
+    width: 100%;
+}
+.nav-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #cfcece;
+    position: absolute;
+    right: 20px;
+}
+
+.middle-box {
+    font-weight: 800;
+    font-size: larger;
+}
+
+.nav-boxes div:hover {
+    color: #ce1414;
+    cursor: pointer;
+}
+
+.space-between a:hover {
+    color: #ce1414;
+    cursor: pointer;
+}
+
+Link,a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* menu btn */
+
+.menu-btn {
+    display: none;
+}
+.menu-bar {
+    width: 30px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 100%;
+    height: 2px;
+    background-color: #f1f0f0; /* Adjust the color as needed */
+    transition: all 0.3s ease;
+  }
+  
+  /* This is the styling for the burger menu button animation */
+
+@media screen and (max-width:576px){
+    .menu-btn {
+        display: inline;
+        position: absolute;
+        left: 20px;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+    
+
+    .navBar-content {
+        justify-content: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-boxes {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:577px){
+    .navBar-content {
+        margin-right:80px;
+    }
+
+    .nav-boxes {
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+    .navBar-content {
+        margin: 0 30px;
+        justify-content: start;
+        gap: 130px;
+    }
+    /* .navBar-content {
+        margin-right: 80px;
+    } */
+
+    .nav-boxes {
+        gap: 50px;
+    }
+    
+    
+}
+
+@media screen and (min-width:992px) {
+
+    .navBar-content {
+        margin-left: 60px;
+        gap: 250px;
+    }
+    .nav-boxes {
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .navBar-content {
+        margin-left: 60px;
+        gap: 300px;
+    }
+    .nav-boxes {
+        gap: 40px;
+    }
+}
